@@ -18,7 +18,7 @@ I enjoy building useful systems and continuously learning, especially in the fie
 
 ### 🔧 Maintenance Request Management System
 A complete web system that allows users to submit and track maintenance requests. Includes admin and technician roles.
-
+- 📄 [Download Project Report (PDF)](https://github.com/ahmsul/mange_system/raw/main/report.pdf)
 ---
 
 ## 📫 Contact
