@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #7ebee9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: white;
+  display: grid;
+  height: 350px;
+  width: 800px;
+  padding: 60px;
+  grid-template-columns: 1fr 1fr ;
+  border-top-left-radius: 50px;
+}
+.logo{
+  background-image: url(login.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+}
+.head{
+  text-align: center;
+  margin-top: 30px;
+}
+.form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  margin: 10px;
+  width: 300px;
+  height: 35px;
+  outline: none;
+  padding-left: 8px;
+  font-size: 15px;
+}
+#user{
+  margin-top: 30px;
+}
+#user, #pswd{
+  border: 0ch;
+  border-bottom: 2px solid darkgray ;
+}
+#user:hover ,#pswd:hover {
+  border-bottom: 2px solid rgb(10, 127, 252) ;
+
+}
+#sbn{
+  margin-top: 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+#sbn:active{
+  transform: translateY(5px);
+  cursor: pointer;
+}
+.frg a{
+  text-decoration: none;
+  color: black;
+}
+.frg a:hover{
+  color: red;
+}
+label {
+  color: #3498db;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  display: block;
+  text-align: right;
+  width: 100%;
+  padding-right: 10px;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
