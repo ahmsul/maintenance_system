@@ -1,25 +1,35 @@
-# Ahmed Alharbi | Portfolio
+# Maintenance Request Management System
 
-Welcome to my personal portfolio!  
-I am a passionate web developer with a Diploma in Programming and Web Development.  
-I enjoy building useful systems and continuously learning, especially in the fields of web development and artificial intelligence.
+A simple web-based system to manage and track maintenance requests, developed as part of a graduation project.
 
----
+## 🔧 Built With
+- PHP
+- MySQL
+- HTML/CSS
+- JavaScript
 
-## 🧰 Skills
-- HTML, CSS, JavaScript  
-- PHP & MySQL  
-- Database Design  
-- Web Systems Development
+## 📋 Features
+- Submit maintenance requests via web form
+- Admin login to view and update requests
+- Status tracking (e.g., Pending, Completed)
+- Organized request table for easy management
 
----
-
-## 📂 Featured Project
+## 🚀 How to Run
+1. Clone the repository
+2. Import the SQL file to your MySQL database
+3. Configure the database connection in `config.php`
+4. Run `index.php` in your browser using a local server (XAMPP/WAMP)
 
 ### 🔧 Maintenance Request Management System
 A complete web system that allows users to submit and track maintenance requests. Includes admin and technician roles.
-- 📄 [Download Project Report (PDF)](https://github.com/ahmsul/mange_system/raw/main/report.pdf)
+- 📄 [Download Project Report (PDF)](https://github.com/ahmsul/mange_system/raw/main/portfolio m_system.pdf)
 ---
+## 📂 Folder Structure
+- `/admin` – Admin dashboard and request management
+- `/includes` – Database and helper files
+- `/assets` – CSS and images
+- `index.php` – Request submission page
 
-## 📫 Contact
-- GitHub: [ahmsul](https://github.com/ahmsul)
+## 👤 Developed By
+Ahmed Alharbi – [ahmsul](https://github.com/ahmsul)
+
