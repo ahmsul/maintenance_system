@@ -22,7 +22,7 @@ A simple web-based system to manage and track maintenance requests, developed as
 
 ### 🔧 Maintenance Request Management System
 A complete web system that allows users to submit and track maintenance requests. Includes admin and technician roles.
-- 📄 [Download Project Report (PDF)](https://github.com/ahmsul/mange_system/raw/main/portfolio_m_system.pdf)
+- 📄 [Download Project portfolio (PDF)](https://github.com/ahmsul/mange_system/raw/main/portfolio_m_system.pdf)
 ---
 ## 📂 Folder Structure
 - `/admin` – Admin dashboard and request management
